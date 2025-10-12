@@ -20,7 +20,9 @@ document.writeln("<span style='color:pink;background-color:green'>FifthLine</spa
 
 //innerHTML java script property
 //dom
+//If you don’t use defer and your <script> tag is in the <head>, your script might run before the elements are created, and getElementById() will return null.
 document.getElementById("container_one").innerHTML="<div style='width:50%;height:50%;background-color:yellow;'><div style='width:50%;height:50%;background-color:darkblue;'></div></div>"
 //innerTExt java script property
 //dom
 document.getElementById("container_two").innerText="<div style='width:50%;height:50%;background-color:yellow;'><div style='width:50%;height:50%;background-color:darkblue;'></div></div>";
+
